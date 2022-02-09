@@ -19,7 +19,7 @@ const ListaRodape = (props: ListaRodapeProps) => {
 						? " Nenhuma Tarefa Encontrada"
 						: tarefas.quantidade === 1
 							? " Tarefa Encontrada"
-							: " Tarefas Econtradas"}
+							: " Tarefas Encontradas"}
 				</span>
 				<span className={`
           flex-1 hidden lg:inline
